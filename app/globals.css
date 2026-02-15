@@ -1,26 +1,32 @@
 @import "tailwindcss";
 
 :root {
+  /* Torre Rosa Palette */
+  --primary: #F2A2B1; /* Pink Tower */
+  --secondary: #F5F5DC; /* Birch Wood */
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #4a4a4a; /* Soft dark text, not pure black */
+  
+  /* Derived colors for depth */
+  --primary-light: #F9Cdd6;
+  --primary-dark: #D48092;
+  --secondary-dark: #E8E8C8;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-primary-light: var(--primary-light);
+  --color-primary-dark: var(--primary-dark);
+  --color-secondary-dark: var(--secondary-dark);
+  
+  --font-sans: var(--font-outfit), ui-sans-serif, system-ui, sans-serif;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
 }

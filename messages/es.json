@@ -1,0 +1,78 @@
+{
+    "Hero": {
+        "title": "Centro <span >Torre Rosa</span>",
+        "brandName": "Centro Torre Rosa",
+        "subtitle": "Psicología Infantil Montessori",
+        "specialty": "Valoraciones Psicopedagógicas",
+        "description": "Apoyo especializado para el desarrollo de su hijo en el corazón de Málaga.",
+        "contactBtn": "Contactar"
+    },
+    "Services": {
+        "title": "Nuestros Servicios",
+        "subtitle": "Apoyo integral para las necesidades de su hijo",
+        "assessments": {
+            "title": "Valoraciones Psicopedagógicas",
+            "description": "Evaluación completa de dificultades de aprendizaje, TDAH y retrasos en el desarrollo para comprender el perfil de aprendizaje único de su hijo."
+        },
+        "therapy": {
+            "title": "Psicología Infantil",
+            "description": "Apoyo emocional y terapia para la ansiedad, problemas de conducta y regulación emocional utilizando enfoques basados en el juego."
+        },
+        "guidance": {
+            "title": "Orientación a Padres",
+            "description": "Apoyo y estrategias para que los padres naveguen los desafíos y fomenten un ambiente hogareño enriquecedor."
+        },
+        "learnMore": "Saber más"
+    },
+    "About": {
+        "title": "Sobre <span >Centro Torre Rosa</span>",
+        "subtitle": "Perfil Profesional",
+        "bio": "Dirigido por expertas en desarrollo infantil, nuestro centro ofrece un espacio seguro y acogedor para niños y familias. Creemos en un enfoque holístico que respeta el ritmo y potencial individual de cada niño.",
+        "schoolIntegration": "Trabajamos estrechamente con la comunidad escolar Montessori, ofreciendo un apoyo continuo que une el hogar, la escuela y la terapia. Nuestras valoraciones están diseñadas para apoyar la filosofía educativa Montessori.",
+        "philosophy": "Ayúdame a hacerlo por mí mismo."
+    },
+    "Contact": {
+        "title": "Contacte con nosotros",
+        "subtitle": "Hablemos",
+        "description": "Estamos aquí para escuchar y apoyar a su familia. Solicite una consulta o más información.",
+        "location": {
+            "label": "Ubicación"
+        },
+        "email": {
+            "label": "Correo Electrónico"
+        },
+        "phone": {
+            "label": "Teléfono"
+        },
+        "schedule": "Lunes a Viernes: 9:00 - 20:00 (Cita previa)",
+        "form": {
+            "name": "Nombre",
+            "namePlaceholder": "Su nombre",
+            "email": "Correo",
+            "emailPlaceholder": "Su correo electrónico",
+            "message": "Mensaje",
+            "messagePlaceholder": "¿En qué podemos ayudarle?",
+            "submit": "Enviar Mensaje"
+        }
+    },
+    "Footer": {
+        "rights": "Todos los derechos reservados.",
+        "legal": "Aviso Legal",
+        "privacy": "Política de Privacidad",
+        "cookies": "Política de Cookies"
+    },
+    "Metadata": {
+        "title": "Centro Torre Rosa | Psicología Infantil Montessori en Málaga",
+        "description": "Centro de psicología infantil en Málaga. Valoraciones psicopedagógicas, terapia infantil y orientación a padres con enfoque Montessori."
+    },
+    "NotFound": {
+        "title": "Página No Encontrada",
+        "description": "La página que busca no existe o ha sido movida.",
+        "backHome": "Volver al Inicio"
+    },
+    "Error": {
+        "title": "¡Algo salió mal!",
+        "description": "Pedimos disculpas por las molestias. Por favor, inténtelo de nuevo.",
+        "retry": "Intentar de nuevo"
+    }
+}

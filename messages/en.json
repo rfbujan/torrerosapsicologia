@@ -1,0 +1,78 @@
+{
+    "Hero": {
+        "title": "Centro <span >Torre Rosa</span>",
+        "brandName": "Centro Torre Rosa",
+        "subtitle": "Montessori Infant Psychology",
+        "specialty": "Psycho-pedagogical Assessments",
+        "description": "Specialized support for your child's development in the heart of Málaga.",
+        "contactBtn": "Contact"
+    },
+    "Services": {
+        "title": "Our Services",
+        "subtitle": "Comprehensive support for your child's needs",
+        "assessments": {
+            "title": "Psycho-pedagogical Assessments",
+            "description": "Comprehensive evaluation of learning difficulties, ADHD, and developmental delays to understand your child's unique learning profile."
+        },
+        "therapy": {
+            "title": "Child Psychology",
+            "description": "Emotional support and therapy for anxiety, behavioral issues, and emotional regulation using play-based approaches."
+        },
+        "guidance": {
+            "title": "Parental Guidance",
+            "description": "Support and strategies for parents to navigate challenges and foster a nurturing home environment."
+        },
+        "learnMore": "Learn more"
+    },
+    "About": {
+        "title": "About <span >Centro Torre Rosa</span>",
+        "subtitle": "Professional Profile",
+        "bio": "Led by experts in child development, our center provides a safe and welcoming space for children and families. We believe in a holistic approach that respects each child's individual pace and potential.",
+        "schoolIntegration": "We work closely with the Montessori school community, offering seamless support that bridges the gap between home, school, and therapy. Our assessments are tailored to support the Montessori educational philosophy.",
+        "philosophy": "Help me to do it myself."
+    },
+    "Contact": {
+        "title": "Contact Us",
+        "subtitle": "Get in Touch",
+        "description": "We are here to listen and support your family. Request a consultation or more information.",
+        "location": {
+            "label": "Location"
+        },
+        "email": {
+            "label": "Email"
+        },
+        "phone": {
+            "label": "Phone"
+        },
+        "schedule": "Monday to Friday: 9:00 - 20:00 (By appointment only)",
+        "form": {
+            "name": "Name",
+            "namePlaceholder": "Your name",
+            "email": "Email",
+            "emailPlaceholder": "Your email",
+            "message": "Message",
+            "messagePlaceholder": "How can we help you?",
+            "submit": "Send Message"
+        }
+    },
+    "Footer": {
+        "rights": "All rights reserved.",
+        "legal": "Legal Notice",
+        "privacy": "Privacy Policy",
+        "cookies": "Cookies Policy"
+    },
+    "Metadata": {
+        "title": "Centro Torre Rosa | Montessori Infant Psychology in Málaga",
+        "description": "Specialized infant psychology center in Málaga. Psycho-pedagogical assessments, child therapy, and parental guidance with a Montessori approach."
+    },
+    "NotFound": {
+        "title": "Page Not Found",
+        "description": "The page you are looking for does not exist or has been moved.",
+        "backHome": "Back to Home"
+    },
+    "Error": {
+        "title": "Something went wrong!",
+        "description": "We apologize for the inconvenience. Please try again.",
+        "retry": "Try again"
+    }
+}
