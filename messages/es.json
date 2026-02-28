@@ -10,26 +10,79 @@
     "Services": {
         "title": "Nuestros Servicios",
         "subtitle": "Apoyo integral para las necesidades de su hijo",
-        "assessments": {
-            "title": "Valoraciones Psicopedagógicas",
-            "description": "Evaluación completa de dificultades de aprendizaje, TDAH y retrasos en el desarrollo para comprender el perfil de aprendizaje único de su hijo."
-        },
         "therapy": {
-            "title": "Psicología Infantil",
-            "description": "Apoyo emocional y terapia para la ansiedad, problemas de conducta y regulación emocional utilizando enfoques basados en el juego."
+            "title": "Terapia individual infantil",
+            "description": "Espacios seguros donde los niños y niñas pueden expresar sus emociones, resolver conflictos internos y fortalecer su autoestima."
         },
-        "guidance": {
-            "title": "Orientación a Padres",
-            "description": "Apoyo y estrategias para que los padres naveguen los desafíos y fomenten un ambiente hogareño enriquecedor."
+        "assessments": {
+            "title": "Valoraciones psicopedagógicas",
+            "description": "Valoraciones integrales del desarrollo infantil para detectar posibles dificultades de aprendizaje. Valoraciones de Altas Capacidades, TDAH, Dislexia, DEA."
+        },
+        "group": {
+            "title": "Terapia de grupo",
+            "description": "Encuentros grupales para trabajar habilidades sociales, empatía, autorregulación y resolución de conflictos desde una aproximación respetuosa y bajo el marco de la Comunicación No Violenta."
+        },
+        "workshops": {
+            "title": "Talleres para familias y educadores",
+            "description": "Actividades prácticas para aprender a acompañar a la infancia con respeto, límites claros y conexión emocional."
         },
         "learnMore": "Saber más"
     },
+    "Methodology": {
+        "title": "¿Cómo trabajo?",
+        "subtitle": "Metodología",
+        "p1": "Cuando vengáis a conocer Centro Torre Rosa encontrareis un espacio diseñado para las niñas y los niños un lugar para trabajar las dificultades con materiales diseñados por la doctora Montessori y desde una perspectiva respetuosa hacia el desarrollo y las características propias de cada de cada niña/ niño y cada familia. Modelo de intervención propio que armoniza el modelo cognitivo-conductual psicológico con la filosofía Montessori.",
+        "p2": "En mi consulta abordamos las dificultades de las niñas y de los niños desde la base respetuosa de la filosofía Montessori. El enfoque de mi practica parte del respeto profundo por la individualidad de cada niño y su entorno familiar.",
+        "p3": "Integro mi formación y practica como psicología sanitaria infantil con mis años de experiencia como orientadora educativa en una escuela de pedagogía Montessori para crear un espacio cálido, donde el vínculo, la autonomía y el juego son las herramientas clave para el aprendizaje.",
+        "techniquesTitle": "Utilizo técnicas como:",
+        "techniques": [
+            "Materiales de la pedagogía Montessori",
+            "Terapias de tercera generación",
+            "EMDR (Eyes Movement Desensitization and Reprocessing)",
+            "Psicoeducación familiar",
+            "Terapias sensoriomotriz"
+        ],
+        "p4": "La colaboración con las familias es fundamental. Caminamos juntas, paso a paso, desde la comprensión y sin juicios."
+    },
     "About": {
-        "title": "Sobre <span >Centro Torre Rosa</span>",
+        "title": "Sobre Mí",
         "subtitle": "Perfil Profesional",
-        "bio": "Dirigido por expertas en desarrollo infantil, nuestro centro ofrece un espacio seguro y acogedor para niños y familias. Creemos en un enfoque holístico que respeta el ritmo y potencial individual de cada niño.",
-        "schoolIntegration": "Trabajamos estrechamente con la comunidad escolar Montessori, ofreciendo un apoyo continuo que une el hogar, la escuela y la terapia. Nuestras valoraciones están diseñadas para apoyar la filosofía educativa Montessori.",
-        "philosophy": "Ayúdame a hacerlo por mí mismo."
+        "p1": "Me llamo Elisabet García, y soy psicóloga general sanitaria especialista en infanto-juvenil, con formación y experiencia en la metodología Montessori, disciplina positiva, desarrollo emocional y Trauma infantil.",
+        "p2": "Mi primera experiencia profesional como psicóloga infantil fue hace más de 15 en Atención Temprana donde inicie mi carrera y estuve casi una década aprendiendo del desarrollo infantil.",
+        "p3": "Tras mi paso como psicóloga infantil en Atención Temprana inicie hace ya más de un lustro mi colaboración con una escuela Montessori, donde desempeño el rol de orientadora educativa y tengo la oportunidad de aprender cada día de las niñas, los niños, las guías y las familias.",
+        "p4": "El conocimiento profundo del desarrollo evolutivo y del aprendizaje humano me ha hecho crear un modelo terapéutico respetuoso que aúna herramientas científicas propias de la psicología clínica con estrategias educativas de la filosofía Montessori, para acompañar el desarrollo integral de las niñas y niños, y sus familias.",
+        "p5": "Creo firmemente que cada niño tiene su propio ritmo y que el verdadero cambio comienza cuando miramos su mundo con curiosidad, y las acompañamos en su proceso.",
+        "p6": "Te invito a conocer más sobre mi forma de acompañar."
+    },
+    "News": {
+        "title": "Novedades y Anuncios",
+        "subtitle": "Actividad Reciente",
+        "items": {
+            "0": {
+                "type": "TALLER",
+                "title": "Próximo Taller de Disciplina Positiva para Familias",
+                "date": "25 Noviembre, 2026",
+                "description": "Herramientas prácticas para gestionar los desafíos del día a día desde el respeto mutuo. Plazas limitadas.",
+                "action": "Más información"
+            },
+            "1": {
+                "type": "PODCAST",
+                "title": "Colaboración en 'Crianza Consciente'",
+                "date": "10 Octubre, 2026",
+                "description": "Una charla profunda sobre los pilares de Montessori en el hogar y cómo aplicarlos de forma realista para reducir el estrés familiar.",
+                "action": "Escuchar Episodio"
+            },
+            "2": {
+                "type": "ARTÍCULO",
+                "title": "La importancia del juego en la regulación emocional",
+                "date": "5 Septiembre, 2026",
+                "description": "Reflexiones sobre cómo el entorno de juego no estructurado fortalece la autonomía y las habilidades ejecutivas.",
+                "action": "Leer Artículo"
+            }
+        }
+    },
+    "CTA": {
+        "bookSession": "Reserva Tu primera Sesion"
     },
     "Contact": {
         "title": "Contacte con nosotros",
@@ -74,5 +127,56 @@
         "title": "¡Algo salió mal!",
         "description": "Pedimos disculpas por las molestias. Por favor, inténtelo de nuevo.",
         "retry": "Intentar de nuevo"
+    },
+    "ServiceDetails": {
+        "backToServices": "Volver a servicios",
+        "therapy": {
+            "title": "Terapia Individual Infantil",
+            "subtitle": "Un espacio seguro para crecer emocionalmente",
+            "content": "La etapa infantil está llena de descubrimientos, pero también de emociones complejas que los niños a menudo no saben cómo gestionar. Mi objetivo es proporcionar un ambiente de seguridad donde cada niño pueda expresar lo que siente a través de su lenguaje natural: el juego. \n\nIntegramos el modelo cognitivo-conductual con la filosofía Montessori, fomentando la autonomía y el descubrimiento personal. Trabajamos desde el respeto absoluto al momento evolutivo del menor, ofreciendo herramientas para la prevención y el manejo de dificultades como la ansiedad, los problemas de conducta, los miedos irracionales y la baja autoestima.",
+            "benefitsTitle": "Beneficios de la intervención:",
+            "benefits": [
+                "Desarrollo de una sana autoestima",
+                "Mejora en la regulación emocional",
+                "Reducción de sintomatología ansiosa",
+                "Adquisición de habilidades de resolución de conflictos"
+            ]
+        },
+        "assessments": {
+            "title": "Valoraciones Psicopedagógicas",
+            "subtitle": "Evaluaciones integrales para guiar su camino de aprendizaje",
+            "content": "Comprender cómo aprende y procesa la información un niño es el primer paso para poder ofrecerle el apoyo que necesita. Las valoraciones psicopedagógicas nos permiten detectar posibles Dificultades Específicas del Aprendizaje (DEA), Trastorno por Déficit de Atención e Hiperactividad (TDAH), dislexia o la presencia de Altas Capacidades.\n\nEl proceso se realiza minuciosamente mediante la administración de pruebas estandarizadas, observación clínica estructurada y entrevistas detalladas con las familias y el equipo docente. El informe resultante es un mapa que orienta las adaptaciones curriculares y el enfoque de las futuras intervenciones necesarias.",
+            "benefitsTitle": "El proceso incluye:",
+            "benefits": [
+                "Entrevista inicial de recogida de historia clínica",
+                "Administración de pruebas estandarizadas de inteligencia, atención y aprendizaje",
+                "Contacto y coordinación con el centro educativo",
+                "Entrega de informe detallado con pautas concretas"
+            ]
+        },
+        "group": {
+            "title": "Terapia de Grupo",
+            "subtitle": "Creciendo juntos a través del respeto mutuo",
+            "content": "Las dinámicas grupales ofrecen un entorno inmejorable para que los menores ensayen y consoliden sus habilidades sociales en tiempo real. Formamos grupos reducidos de edades similares para trabajar aspectos fundamentales como la empatía, la autorregulación grupal, la asertividad y la resolución pacífica de conflictos.\n\nTodas las sesiones están enmarcadas bajo los principios de la Comunicación No Violenta (CNV), promoviendo la escucha activa y la expresión emocional sincera, asegurando que cada integrante del grupo se sienta visto, validado e integrado.",
+            "benefitsTitle": "Aspectos que trabajamos en grupo:",
+            "benefits": [
+                "Entrenamiento en asertividad y límites sanos",
+                "Estrategias de comunicación pacífica",
+                "Identificación y validación de emociones en los demás",
+                "Cooperación y trabajo en equipo"
+            ]
+        },
+        "workshops": {
+            "title": "Talleres para Familias y Educadores",
+            "subtitle": "Dotando de herramientas al entorno del niño",
+            "content": "El bienestar de un niño está profundamente entrelazado con el de su familia y sus cuidadores. Estos talleres prácticos están diseñados para padres, madres y profesionales de la educación que desean incorporar un enfoque más respetuoso, consciente y conectado en su día a día.\n\nDamos respuesta a los retos diarios de la crianza y la educación (manejo de rabietas, uso de dispositivos, rutinas y normas) apoyándonos en los pilares de la Disciplina Positiva y el modelo Montessori. Creemos firmemente que para educar niños seguros necesitamos adultos con herramientas sólidas.",
+            "benefitsTitle": "Temáticas habituales:",
+            "benefits": [
+                "Límites con amor y firmeza",
+                "Acompañamiento emocional en las rabietas",
+                "Fomento de la autonomía (Filosofía Montessori en casa)",
+                "Prevención de riesgos digitales en la infancia"
+            ]
+        }
     }
 }

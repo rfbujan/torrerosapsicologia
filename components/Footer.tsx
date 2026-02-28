@@ -1,6 +1,7 @@
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import { Facebook, Instagram, Linkedin } from 'lucide-react';
+import Image from 'next/image';
 
 export function Footer() {
     const t = useTranslations('Footer');
@@ -13,7 +14,10 @@ export function Footer() {
             <div className="container mx-auto px-4">
                 <div className="grid md:grid-cols-4 gap-8 mb-8">
                     <div className="col-span-1 md:col-span-2 space-y-4">
-                        <h3 className="text-2xl font-bold">{tHero('brandName')}</h3>
+                        <div className="flex items-center gap-3">
+                            <Image src="/torre_rosa_logo.jpg" alt="Centro Torre Rosa Logo" width={48} height={48} className="object-cover rounded-md bg-white p-1" />
+                            <h3 className="text-2xl font-bold">{tHero('brandName')}</h3>
+                        </div>
                         <p className="text-white/80 max-w-sm">
                             {tHero('subtitle')}
                         </p>

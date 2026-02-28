@@ -1,6 +1,6 @@
 import { useTranslations } from 'next-intl';
 import { ServiceCard } from './ServiceCard';
-import { Brain, Heart, Users } from 'lucide-react';
+import { Brain, Heart, Users, BookOpen } from 'lucide-react';
 
 export function ServicesSection() {
     const t = useTranslations('Services');
@@ -17,14 +17,7 @@ export function ServicesSection() {
                     </h2>
                 </div>
 
-                <div className="grid md:grid-cols-3 gap-8">
-                    <ServiceCard
-                        title={t('assessments.title')}
-                        description={t('assessments.description')}
-                        href="/services/assessments"
-                        icon={<Brain className="w-10 h-10" strokeWidth={1.5} />}
-                        learnMoreLabel={t('learnMore')}
-                    />
+                <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                     <ServiceCard
                         title={t('therapy.title')}
                         description={t('therapy.description')}
@@ -33,10 +26,24 @@ export function ServicesSection() {
                         learnMoreLabel={t('learnMore')}
                     />
                     <ServiceCard
-                        title={t('guidance.title')}
-                        description={t('guidance.description')}
-                        href="/services/guidance"
+                        title={t('assessments.title')}
+                        description={t('assessments.description')}
+                        href="/services/assessments"
+                        icon={<Brain className="w-10 h-10" strokeWidth={1.5} />}
+                        learnMoreLabel={t('learnMore')}
+                    />
+                    <ServiceCard
+                        title={t('group.title')}
+                        description={t('group.description')}
+                        href="/services/group"
                         icon={<Users className="w-10 h-10" strokeWidth={1.5} />}
+                        learnMoreLabel={t('learnMore')}
+                    />
+                    <ServiceCard
+                        title={t('workshops.title')}
+                        description={t('workshops.description')}
+                        href="/services/workshops"
+                        icon={<BookOpen className="w-10 h-10" strokeWidth={1.5} />}
                         learnMoreLabel={t('learnMore')}
                     />
                 </div>

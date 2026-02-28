@@ -10,26 +10,79 @@
     "Services": {
         "title": "Our Services",
         "subtitle": "Comprehensive support for your child's needs",
+        "therapy": {
+            "title": "Individual Child Therapy",
+            "description": "Safe spaces where children can express their emotions, resolve internal conflicts, and strengthen their self-esteem."
+        },
         "assessments": {
             "title": "Psycho-pedagogical Assessments",
-            "description": "Comprehensive evaluation of learning difficulties, ADHD, and developmental delays to understand your child's unique learning profile."
+            "description": "Comprehensive evaluations of child development to detect potential learning difficulties. Assessments for High Abilities, ADHD, Dyslexia, SLD."
         },
-        "therapy": {
-            "title": "Child Psychology",
-            "description": "Emotional support and therapy for anxiety, behavioral issues, and emotional regulation using play-based approaches."
+        "group": {
+            "title": "Group Therapy",
+            "description": "Group meetings to work on social skills, empathy, self-regulation, and conflict resolution from a respectful approach and within the framework of Nonviolent Communication."
         },
-        "guidance": {
-            "title": "Parental Guidance",
-            "description": "Support and strategies for parents to navigate challenges and foster a nurturing home environment."
+        "workshops": {
+            "title": "Workshops for Families and Educators",
+            "description": "Practical activities to learn how to guide children with respect, clear boundaries, and emotional connection."
         },
         "learnMore": "Learn more"
     },
+    "Methodology": {
+        "title": "How I work",
+        "subtitle": "Methodology",
+        "p1": "When you come to know my therapeutic environment you will find a space designed for children, a place to work on difficulties with materials designed by Dr. Montessori and from a respectful perspective towards the development and the specific characteristics of each child and each family. My own intervention model harmonizes the psychological cognitive-behavioral model with the Montessori philosophy.",
+        "p2": "In my practice, we address the difficulties of children from the respectful basis of the Montessori philosophy. The focus of my practice starts from a deep respect for the individuality of each child and their family environment.",
+        "p3": "I integrate my training and practice as a child health psychologist with my years of experience as an educational counselor in a Montessori pedagogy school to create a warm space, where bonding, autonomy, and play are key tools for learning.",
+        "techniquesTitle": "I use techniques such as:",
+        "techniques": [
+            "Montessori pedagogy materials",
+            "Third-generation therapies",
+            "EMDR (Eye Movement Desensitization and Reprocessing)",
+            "Family psychoeducation",
+            "Sensorimotor therapies"
+        ],
+        "p4": "Collaboration with families is fundamental. We walk together, step by step, from understanding and without judgment."
+    },
     "About": {
-        "title": "About <span >Centro Torre Rosa</span>",
+        "title": "About Me",
         "subtitle": "Professional Profile",
-        "bio": "Led by experts in child development, our center provides a safe and welcoming space for children and families. We believe in a holistic approach that respects each child's individual pace and potential.",
-        "schoolIntegration": "We work closely with the Montessori school community, offering seamless support that bridges the gap between home, school, and therapy. Our assessments are tailored to support the Montessori educational philosophy.",
-        "philosophy": "Help me to do it myself."
+        "p1": "My name is Elisabet García, and I am a general health psychologist specializing in children and adolescents, with training and experience in Montessori methodology, positive discipline, emotional development, and child Trauma.",
+        "p2": "My first professional experience as a child psychologist was more than 15 years ago in Early Intervention where I started my career and spent almost a decade learning about child development.",
+        "p3": "After my time as a child psychologist in Early Intervention, I began my collaboration with a Montessori school more than five years ago, where I play the role of educational counselor and have the opportunity to learn every day from the children, the guides, and the families.",
+        "p4": "Deep knowledge of evolutionary development and human learning has led me to create a respectful therapeutic model that combines scientific tools typical of clinical psychology with educational strategies from the Montessori philosophy, to accompany the comprehensive development of children and their families.",
+        "p5": "I firmly believe that each child has their own rhythm and that true change begins when we look at their world with curiosity, and accompany them in their process.",
+        "p6": "I invite you to learn more about my way of accompanying."
+    },
+    "News": {
+        "title": "News & Announcements",
+        "subtitle": "Recent Activity",
+        "items": {
+            "0": {
+                "type": "WORKSHOP",
+                "title": "Upcoming Positive Discipline Workshop for Families",
+                "date": "November 25, 2026",
+                "description": "Practical tools to manage daily challenges from mutual respect. Limited spots available.",
+                "action": "More information"
+            },
+            "1": {
+                "type": "PODCAST",
+                "title": "Collaboration with 'Conscious Parenting'",
+                "date": "October 10, 2026",
+                "description": "A deep talk about the pillars of Montessori at home and how to apply them realistically to reduce family stress.",
+                "action": "Listen Episode"
+            },
+            "2": {
+                "type": "ARTICLE",
+                "title": "The importance of play in emotional regulation",
+                "date": "September 5, 2026",
+                "description": "Reflections on how an unstructured play environment strengthens autonomy and executive skills.",
+                "action": "Read Article"
+            }
+        }
+    },
+    "CTA": {
+        "bookSession": "Book Your First Session"
     },
     "Contact": {
         "title": "Contact Us",
@@ -74,5 +127,56 @@
         "title": "Something went wrong!",
         "description": "We apologize for the inconvenience. Please try again.",
         "retry": "Try again"
+    },
+    "ServiceDetails": {
+        "backToServices": "Back to services",
+        "therapy": {
+            "title": "Individual Child Therapy",
+            "subtitle": "A safe space for emotional growth",
+            "content": "Childhood is full of discoveries, but also complex emotions that children often do not know how to manage. My goal is to provide a safe environment where each child can express what they feel through their natural language: play.\n\nWe integrate the cognitive-behavioral model with the Montessori philosophy, promoting autonomy and personal discovery. We work from an absolute respect for the child's developmental stage, offering tools for the prevention and management of difficulties such as anxiety, behavioral problems, irrational fears, and low self-esteem.",
+            "benefitsTitle": "Benefits of the intervention:",
+            "benefits": [
+                "Development of healthy self-esteem",
+                "Improvement in emotional regulation",
+                "Reduction of anxious symptomatology",
+                "Acquisition of conflict resolution skills"
+            ]
+        },
+        "assessments": {
+            "title": "Psycho-pedagogical Assessments",
+            "subtitle": "Comprehensive evaluations to guide their learning path",
+            "content": "Understanding how a child learns and processes information is the first step to being able to offer the support they need. Psycho-pedagogical assessments allow us to detect Specific Learning Difficulties (SLD), Attention Deficit Hyperactivity Disorder (ADHD), dyslexia, or the presence of High Abilities.\n\nThe process is carried out meticulously through the administration of standardized tests, structured clinical observation, and detailed interviews with families and the teaching team. The resulting report is a map that guides curricular adaptations and the focus of necessary future interventions.",
+            "benefitsTitle": "The process includes:",
+            "benefits": [
+                "Initial clinical history interview",
+                "Administration of standardized tests for intelligence, attention, and learning",
+                "Contact and coordination with the educational center",
+                "Delivery of a detailed report with concrete guidelines"
+            ]
+        },
+        "group": {
+            "title": "Group Therapy",
+            "subtitle": "Growing together through mutual respect",
+            "content": "Group dynamics offer an unbeatable environment for minors to rehearse and consolidate their social skills in real time. We form small groups of similar ages to work on fundamental aspects such as empathy, group self-regulation, assertiveness, and peaceful conflict resolution.\n\nAll sessions are framed under the principles of Nonviolent Communication (NVC), promoting active listening and sincere emotional expression, ensuring that each member of the group feels seen, validated, and integrated.",
+            "benefitsTitle": "Aspects we work on in group:",
+            "benefits": [
+                "Training in assertiveness and healthy boundaries",
+                "Peaceful communication strategies",
+                "Identification and validation of emotions in others",
+                "Cooperation and teamwork"
+            ]
+        },
+        "workshops": {
+            "title": "Workshops for Families and Educators",
+            "subtitle": "Equipping the child's environment with tools",
+            "content": "A child's well-being is deeply intertwined with that of their family and caregivers. These practical workshops are designed for parents and educational professionals who wish to incorporate a more respectful, conscious, and connected approach in their daily lives.\n\nWe respond to the daily challenges of parenting and education (managing tantrums, use of devices, routines, and rules) relying on the pillars of Positive Discipline and the Montessori model. We firmly believe that to raise confident children we need adults with solid tools.",
+            "benefitsTitle": "Common topics:",
+            "benefits": [
+                "Limits with love and firmness",
+                "Emotional support during tantrums",
+                "Promoting autonomy (Montessori Philosophy at home)",
+                "Prevention of digital risks in childhood"
+            ]
+        }
     }
 }

@@ -30,8 +30,8 @@ export function ContactSection() {
                                 <h3 className="font-semibold text-foreground mb-1">{t('location.label')}</h3>
                                 <p className="text-neutral-600 leading-relaxed">
                                     Centro Torre Rosa<br />
-                                    Calle Example, 123<br />
-                                    29000 Málaga, Spain
+                                    Calle Godino, 3<br />
+                                    Málaga
                                 </p>
                             </div>
                         </div>
@@ -42,8 +42,8 @@ export function ContactSection() {
                             </div>
                             <div>
                                 <h3 className="font-semibold text-foreground mb-1">{t('email.label')}</h3>
-                                <a href="mailto:info@torrerosa.com" className="text-neutral-600 hover:text-primary transition-colors">
-                                    info@torrerosa.com
+                                <a href="mailto:eligarciadi@gmail.com" className="text-neutral-600 hover:text-primary transition-colors">
+                                    eligarciadi@gmail.com
                                 </a>
                             </div>
                         </div>
@@ -54,8 +54,8 @@ export function ContactSection() {
                             </div>
                             <div>
                                 <h3 className="font-semibold text-foreground mb-1">{t('phone.label')}</h3>
-                                <a href="tel:+34123456789" className="text-neutral-600 hover:text-primary transition-colors">
-                                    +34 123 456 789
+                                <a href="tel:+34609135066" className="text-neutral-600 hover:text-primary transition-colors">
+                                    +34 609 13 50 66
                                 </a>
                             </div>
                         </div>

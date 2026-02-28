@@ -13,7 +13,7 @@ export function ServiceCard({ title, description, href, icon, learnMoreLabel }: 
     return (
         <Link
             href={href}
-            className="group block p-8 bg-white rounded-2xl shadow-sm border border-secondary/50 hover:shadow-md hover:border-primary/30 transition-all duration-300 h-full flex flex-col"
+            className="group block p-8 bg-white rounded-[2rem_0.5rem_2rem_0.5rem] border-2 border-secondary/60 hover:border-primary/50 shadow-[6px_6px_0_var(--color-secondary-dark)] hover:shadow-[10px_10px_0_var(--color-primary-light)] hover:-translate-y-2 transition-all duration-300 h-full flex flex-col"
         >
             <div className="mb-6 text-primary group-hover:scale-110 transition-transform duration-300 origin-left">
                 {icon}
