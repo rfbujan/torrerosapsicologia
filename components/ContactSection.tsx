@@ -1,8 +1,21 @@
+'use client';
+
 import { useTranslations } from 'next-intl';
 import { Mail, MapPin, Phone } from 'lucide-react';
+import { useState, FormEvent } from 'react';
 
 export function ContactSection() {
     const t = useTranslations('Contact');
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [message, setMessage] = useState('');
+
+    const handleSubmit = (e: FormEvent) => {
+        e.preventDefault();
+        const subject = encodeURIComponent(`Nuevo mensaje de ${name} (Web Torre Rosa)`);
+        const body = encodeURIComponent(`Nombre: ${name}\nEmail: ${email}\n\nMensaje:\n${message}`);
+        window.location.href = `mailto:eligarciadi@gmail.com?subject=${subject}&body=${body}`;
+    };
 
     return (
         <section id="contact" className="py-24 bg-secondary/30">
@@ -68,7 +81,7 @@ export function ContactSection() {
                     </div>
 
                     {/* Contact Form */}
-                    <form className="space-y-6 p-8 bg-white rounded-2xl shadow-sm">
+                    <form onSubmit={handleSubmit} className="space-y-6 p-8 bg-white rounded-2xl shadow-sm">
                         <div className="grid md:grid-cols-2 gap-6">
                             <div className="space-y-2">
                                 <label htmlFor="name" className="text-sm font-medium text-foreground">
@@ -77,6 +90,9 @@ export function ContactSection() {
                                 <input
                                     type="text"
                                     id="name"
+                                    required
+                                    value={name}
+                                    onChange={(e) => setName(e.target.value)}
                                     className="w-full px-4 py-3 rounded-lg border border-neutral-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all"
                                     placeholder={t('form.namePlaceholder')}
                                 />
@@ -88,6 +104,9 @@ export function ContactSection() {
                                 <input
                                     type="email"
                                     id="email"
+                                    required
+                                    value={email}
+                                    onChange={(e) => setEmail(e.target.value)}
                                     className="w-full px-4 py-3 rounded-lg border border-neutral-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all"
                                     placeholder={t('form.emailPlaceholder')}
                                 />
@@ -101,6 +120,9 @@ export function ContactSection() {
                             <textarea
                                 id="message"
                                 rows={4}
+                                required
+                                value={message}
+                                onChange={(e) => setMessage(e.target.value)}
                                 className="w-full px-4 py-3 rounded-lg border border-neutral-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all resize-none"
                                 placeholder={t('form.messagePlaceholder')}
                             ></textarea>
