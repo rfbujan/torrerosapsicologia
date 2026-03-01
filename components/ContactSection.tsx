@@ -29,7 +29,7 @@ export function ContactSection() {
                             <div>
                                 <h3 className="font-semibold text-foreground mb-1">{t('location.label')}</h3>
                                 <p className="text-neutral-600 leading-relaxed">
-                                    Centro Torre Rosa<br />
+                                    Centro Internacional Maria Montessori<br />
                                     Calle Godino, 3<br />
                                     Málaga
                                 </p>

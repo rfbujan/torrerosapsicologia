@@ -53,7 +53,7 @@ export function HeroSection() {
                                 <ArrowRight className="ml-3 w-5 h-5 group-hover:translate-x-2 transition-transform" />
                             </a>
                             <Link
-                                href="/#services"
+                                href="/services/assessments"
                                 className="inline-flex items-center justify-center px-8 py-4 rounded-xl bg-white text-foreground text-lg border-2 border-neutral-100 font-bold shadow-sm hover:border-secondary hover:bg-neutral-50 transition-all duration-300"
                             >
                                 {t('specialty')}
