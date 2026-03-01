@@ -6,8 +6,12 @@ import { AboutSection } from '../../components/AboutSection';
 import { NewsSection } from '../../components/NewsSection';
 import { ContactSection } from '../../components/ContactSection';
 import { Footer } from '../../components/Footer';
+import { setRequestLocale } from 'next-intl/server';
 
-export default function HomePage() {
+export default async function HomePage({ params }: { params: Promise<{ locale: string }> }) {
+    const { locale } = await params;
+    setRequestLocale(locale);
+
     return (
         <main className="min-h-screen flex flex-col font-sans">
             <Header />

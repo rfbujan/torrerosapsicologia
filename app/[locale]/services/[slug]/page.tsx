@@ -1,4 +1,4 @@
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import { Header } from '../../../../components/Header';
@@ -8,6 +8,10 @@ import { Link } from '@/i18n/routing';
 
 const validSlugs = ['therapy', 'assessments', 'group', 'workshops'];
 
+export function generateStaticParams() {
+    return validSlugs.map((slug) => ({ slug }));
+}
+
 // Generates correct metadata for the specific service
 export async function generateMetadata({
     params
@@ -15,6 +19,7 @@ export async function generateMetadata({
     params: Promise<{ locale: string, slug: string }>;
 }) {
     const { locale, slug } = await params;
+    setRequestLocale(locale);
 
     if (!validSlugs.includes(slug)) {
         return {};
@@ -33,6 +38,7 @@ export default async function ServicePage({
     params: Promise<{ locale: string; slug: string }>;
 }) {
     const { locale, slug } = await params;
+    setRequestLocale(locale);
 
     // Validate if slug exists in our known list
     if (!validSlugs.includes(slug)) {

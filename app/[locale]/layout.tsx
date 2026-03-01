@@ -1,5 +1,5 @@
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages } from 'next-intl/server';
+import { getMessages, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '../../i18n/routing';
 import { Outfit } from "next/font/google";
@@ -12,12 +12,17 @@ const outfit = Outfit({
 
 import { getTranslations } from 'next-intl/server';
 
+export function generateStaticParams() {
+    return routing.locales.map((locale) => ({ locale }));
+}
+
 export async function generateMetadata({
     params
 }: {
     params: Promise<{ locale: string }>;
 }) {
     const { locale } = await params;
+    setRequestLocale(locale);
     const t = await getTranslations({ locale, namespace: 'Metadata' });
 
     return {
@@ -50,6 +55,10 @@ export default async function LocaleLayout({
 }) {
     // Ensure that the incoming `locale` is valid
     const { locale } = await params;
+
+    // Enable static rendering
+    setRequestLocale(locale);
+
     if (!routing.locales.includes(locale as any)) {
         notFound();
     }
