@@ -26,6 +26,10 @@
             "title": "Workshops for Families and Educators",
             "description": "Practical activities to learn how to guide children with respect, clear boundaries, and emotional connection."
         },
+        "parents": {
+            "title": "Parental Guidance",
+            "description": "Personalized support for families, providing respectful educational strategies and tools to strengthen the bond."
+        },
         "learnMore": "Learn more"
     },
     "Methodology": {
@@ -176,6 +180,18 @@
                 "Emotional support during tantrums",
                 "Promoting autonomy (Montessori Philosophy at home)",
                 "Prevention of digital risks in childhood"
+            ]
+        },
+        "parents": {
+            "title": "Parental Guidance",
+            "subtitle": "Support for conscious and secure parenting",
+            "content": "Parenting is full of daily challenges that often generate doubts, guilt, or stress in family dynamics. This exclusive service for parents offers a safe space to analyze what is happening at home and find the origin of the conflicts, without judgment and with the utmost empathy.\n\nWe will work together to understand what your child needs to communicate with their behavior, and we will build practical strategies based on Positive Discipline and the Montessori methodology to foster cooperation, establish respectful boundaries, and repair or strengthen the affective bond. Regaining calm and confidence in your role as parents is possible.",
+            "benefitsTitle": "Objectives of family support:",
+            "benefits": [
+                "Understanding your child's evolutionary development",
+                "Establishing rules and routines without yelling",
+                "Management of parental stress and self-care",
+                "Conflict resolution and fostering cooperation at home"
             ]
         }
     }

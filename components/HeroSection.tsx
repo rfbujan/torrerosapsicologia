@@ -2,7 +2,6 @@ import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import { Link } from '@/i18n/routing';
 import { ArrowRight } from 'lucide-react';
-import { PinkTower } from './PinkTower';
 
 export function HeroSection() {
     const t = useTranslations('Hero');
@@ -28,9 +27,9 @@ export function HeroSection() {
                     </span>
 
                     <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-[8rem] font-black text-foreground leading-[0.9] tracking-tighter mix-blend-darken relative">
-                        {/* Interactive floating Pink Tower that overlaps the text intentionally to create depth */}
-                        <div className="absolute -right-8 -top-12 md:-right-24 md:-top-16 z-30 hover:scale-110 transition-transform duration-700 shadow-2xl rounded-2xl md:rounded-[3rem_0.5rem_3rem_0.5rem] overflow-hidden border-4 border-white bg-white w-40 h-64 md:w-56 md:h-96 hidden sm:block p-4 flex justify-center items-end bg-gradient-to-b from-white to-secondary/20">
-                            <PinkTower className="w-full h-[90%] text-primary" />
+                        {/* Interactive floating Image that overlaps the text intentionally to create depth */}
+                        <div className="absolute -right-8 -top-12 md:-right-24 md:-top-16 z-30 hover:scale-105 transition-transform duration-700 shadow-2xl rounded-2xl md:rounded-[3rem_0.5rem_3rem_0.5rem] overflow-hidden border-4 border-white bg-white w-40 h-64 md:w-64 md:h-[28rem] hidden sm:block">
+                            <Image src="/torre_rosa_nina_torre.jpg" alt="Niña jugando con la Torre Rosa Montessori" fill className="object-cover object-center" priority />
                         </div>
 
                         {t.rich('title', {
@@ -64,10 +63,10 @@ export function HeroSection() {
                 </div>
             </div>
 
-            {/* Mobile-only visible Pink Tower footprint */}
-            <div className="relative mt-16 sm:hidden w-full h-80 z-10 flex justify-end">
-                <div className="w-48 h-full shadow-xl rounded-[2rem_0.5rem_2rem_0.5rem] overflow-hidden border-4 border-white bg-white rotate-6 hover:rotate-0 transition-transform p-4 flex justify-center items-end bg-gradient-to-b from-white to-secondary/20">
-                    <PinkTower className="w-full h-full text-primary" />
+            {/* Mobile-only visible footprint */}
+            <div className="relative mt-8 sm:hidden w-full h-80 z-10 flex justify-center px-4">
+                <div className="relative w-full max-w-[16rem] h-full shadow-2xl rounded-[3rem_0.5rem_3rem_0.5rem] overflow-hidden border-4 border-white bg-white">
+                    <Image src="/torre_rosa_nina_torre.jpg" alt="Niña jugando con la Torre Rosa Montessori" fill className="object-cover object-center" priority />
                 </div>
             </div>
         </section>

@@ -6,7 +6,7 @@ import { Footer } from '../../../../components/Footer';
 import { ArrowRight, CheckCircle2 } from 'lucide-react';
 import { Link } from '@/i18n/routing';
 
-const validSlugs = ['therapy', 'assessments', 'group', 'workshops'];
+const validSlugs = ['therapy', 'assessments', 'group', 'workshops', 'parents'];
 
 export function generateStaticParams() {
     return validSlugs.map((slug) => ({ slug }));
@@ -56,6 +56,18 @@ export default async function ServicePage({
     // 4 items per benefit list based on what we added to json files
     const benefits = [0, 1, 2, 3].map((i) => t(`benefits.${i}`));
 
+    // Map each service slug to its corresponding high-quality image
+    const serviceImages = {
+        'therapy': '/torre_rosa_dibujos.jpeg',
+        'assessments': '/torre_rosa_juguete.jpeg',
+        'group': '/torre_rosa_arcoiris_2.jpg',
+        'workshops': '/torre_rosa_casa_madera.jpg',
+        'parents': '/torre_rosa_corazon_mano.jpg'
+    };
+
+    // Fallback image just in case
+    const heroImage = serviceImages[slug as keyof typeof serviceImages] || "/torre_rosa_feet_rainbow.jpg";
+
     return (
         <main className="min-h-screen flex flex-col font-sans bg-white">
             <Header />
@@ -63,8 +75,8 @@ export default async function ServicePage({
             {/* Hero Image Section */}
             <div className="relative w-full h-[50vh] md:h-[60vh] mt-20">
                 <Image
-                    src="/torre_rosa_feet_rainbow.jpg"
-                    alt="Niño jugando con arcoíris"
+                    src={heroImage}
+                    alt={t('title')}
                     fill
                     className="object-cover object-center"
                     priority

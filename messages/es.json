@@ -26,6 +26,10 @@
             "title": "Talleres para familias y educadores",
             "description": "Actividades prácticas para aprender a acompañar a la infancia con respeto, límites claros y conexión emocional."
         },
+        "parents": {
+            "title": "Orientación a padres",
+            "description": "Acompañamiento personalizado para familias, dotando de estrategias educativas respetuosas y herramientas para fortalecer el vínculo."
+        },
         "learnMore": "Saber más"
     },
     "Methodology": {
@@ -176,6 +180,18 @@
                 "Acompañamiento emocional en las rabietas",
                 "Fomento de la autonomía (Filosofía Montessori en casa)",
                 "Prevención de riesgos digitales en la infancia"
+            ]
+        },
+        "parents": {
+            "title": "Orientación a Padres",
+            "subtitle": "Acompañamiento para una crianza consciente y segura",
+            "content": "La crianza está llena de desafíos diarios que a menudo generan dudas, culpa o estrés en la dinámica familiar. Este servicio exclusivo para padres y madres ofrece un espacio seguro donde analizar lo que ocurre en casa y encontrar el origen de los conflictos, sin juicios y desde la mayor de las empatías.\n\nTrabajaremos juntos para entender qué necesita comunicarnos vuestro hijo/a con su comportamiento y construiremos estrategias prácticas basadas en la Disciplina Positiva y la metodología Montessori para fomentar la cooperación, establecer límites respetuosos y reparar o fortalecer el vínculo afectivo. Recuperar la calma y la seguridad en vuestro rol como padres es posible.",
+            "benefitsTitle": "Objetivos del acompañamiento familiar:",
+            "benefits": [
+                "Comprender el desarrollo evolutivo de tu hijo/a",
+                "Establecimiento de normas y rutinas sin gritos",
+                "Gestión del estrés parental y autocuidado",
+                "Resolución de conflictos y fomento de la cooperación en casa"
             ]
         }
     }
