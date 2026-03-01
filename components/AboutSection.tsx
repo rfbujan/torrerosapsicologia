@@ -46,15 +46,9 @@ export function AboutSection() {
                         <div className="prose prose-lg text-neutral-600">
                             <p>{t('p1')}</p>
                             <p>{t('p2')}</p>
-                            <p>{t('p3')}</p>
-                            <p>{t('p4')}</p>
-                            <p>{t('p5')}</p>
-                            <p className="font-semibold text-foreground pt-4">{t('p6')}</p>
+                            <p className="font-semibold text-foreground pt-4">{t('p3')}</p>
                         </div>
-
-
                     </div>
-
                 </div>
             </div>
         </section>

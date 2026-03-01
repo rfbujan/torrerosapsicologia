@@ -35,28 +35,23 @@
     "Methodology": {
         "title": "¿Cómo trabajo?",
         "subtitle": "Metodología",
-        "p1": "Cuando vengáis a conocer Centro Torre Rosa encontrareis un espacio diseñado para las niñas y los niños un lugar para trabajar las dificultades con materiales diseñados por la doctora Montessori y desde una perspectiva respetuosa hacia el desarrollo y las características propias de cada de cada niña/ niño y cada familia. Modelo de intervención propio que armoniza el modelo cognitivo-conductual psicológico con la filosofía Montessori.",
-        "p2": "En mi consulta abordamos las dificultades de las niñas y de los niños desde la base respetuosa de la filosofía Montessori. El enfoque de mi practica parte del respeto profundo por la individualidad de cada niño y su entorno familiar.",
-        "p3": "Integro mi formación y practica como psicología sanitaria infantil con mis años de experiencia como orientadora educativa en una escuela de pedagogía Montessori para crear un espacio cálido, donde el vínculo, la autonomía y el juego son las herramientas clave para el aprendizaje.",
-        "techniquesTitle": "Utilizo técnicas como:",
+        "p1": "Mi consulta es un espacio cálido y respetuoso diseñado a la medida de la infancia. Aquí, el vínculo seguro, la autonomía y el juego libre no estructurado se convierten en los principales motores del cambio y el aprendizaje.",
+        "p2": "A través de un modelo terapéutico propio, integro la eficacia científica de la psicología cognitivo-conductual con la profunda filosofía humanista de la pedagogía Montessori. El resultado es un acompañamiento integral que respeta el ritmo evolutivo de cada niño y empodera a las familias.",
+        "techniquesTitle": "Técnicas y enfoques de intervención:",
         "techniques": [
-            "Materiales de la pedagogía Montessori",
-            "Terapias de tercera generación",
-            "EMDR (Eyes Movement Desensitization and Reprocessing)",
+            "Materiales de pedagogía Montessori",
+            "Terapias de Tercera Generación",
+            "EMDR (Eye Movement Desensitization and Reprocessing)",
             "Psicoeducación familiar",
-            "Terapias sensoriomotriz"
-        ],
-        "p4": "La colaboración con las familias es fundamental. Caminamos juntas, paso a paso, desde la comprensión y sin juicios."
+            "Terapia Sensoriomotriz"
+        ]
     },
     "About": {
         "title": "Sobre Mí",
         "subtitle": "Perfil Profesional",
-        "p1": "Me llamo Elisabet García, y soy psicóloga general sanitaria especialista en infanto-juvenil, con formación y experiencia en la metodología Montessori, disciplina positiva, desarrollo emocional y Trauma infantil.",
-        "p2": "Mi primera experiencia profesional como psicóloga infantil fue hace más de 15 en Atención Temprana donde inicie mi carrera y estuve casi una década aprendiendo del desarrollo infantil.",
-        "p3": "Tras mi paso como psicóloga infantil en Atención Temprana inicie hace ya más de un lustro mi colaboración con una escuela Montessori, donde desempeño el rol de orientadora educativa y tengo la oportunidad de aprender cada día de las niñas, los niños, las guías y las familias.",
-        "p4": "El conocimiento profundo del desarrollo evolutivo y del aprendizaje humano me ha hecho crear un modelo terapéutico respetuoso que aúna herramientas científicas propias de la psicología clínica con estrategias educativas de la filosofía Montessori, para acompañar el desarrollo integral de las niñas y niños, y sus familias.",
-        "p5": "Creo firmemente que cada niño tiene su propio ritmo y que el verdadero cambio comienza cuando miramos su mundo con curiosidad, y las acompañamos en su proceso.",
-        "p6": "Te invito a conocer más sobre mi forma de acompañar."
+        "p1": "Soy Elisabet García, psicóloga general sanitaria especialista en infanto-juvenil. Con más de 15 años de trayectoria profesional, inicié mi camino en el ámbito de la Atención Temprana, donde adquirí un conocimiento profundo sobre neurodesarrollo y prevención durante casi una década.",
+        "p2": "Desde hace más de cinco años, compagino mi práctica clínica con el rol de orientadora educativa en una prestigiosa escuela Montessori. Esta experiencia dual, sumada a mi formación en trauma infantil (EMDR) y disciplina positiva, me ha permitido desarrollar un modelo psicoterapéutico único.",
+        "p3": "Creo firmemente que cada niño tiene su propio ritmo y que el verdadero cambio comienza cuando su entorno adulto decide mirar su mundo interno con curiosidad, respeto y empatía."
     },
     "News": {
         "title": "Novedades y Anuncios",
@@ -64,24 +59,57 @@
         "items": {
             "0": {
                 "type": "TALLER",
-                "title": "Próximo Taller de Disciplina Positiva para Familias",
-                "date": "25 Noviembre, 2026",
-                "description": "Herramientas prácticas para gestionar los desafíos del día a día desde el respeto mutuo. Plazas limitadas.",
-                "action": "Más información"
+                "title": "La Fábrica de la Autoestima",
+                "date": "Celebrado",
+                "description": "Taller práctico para dotar a los niños y niñas de herramientas para construir un autoconcepto sano y fuerte.",
+                "action": "Ver Cartel",
+                "image": "/torre_rosa_taller_laFabricaDeLaAutoestima.jpg",
+                "href": "/torre_rosa_taller_laFabricaDeLaAutoestima.jpg"
             },
             "1": {
-                "type": "PODCAST",
-                "title": "Colaboración en 'Crianza Consciente'",
-                "date": "10 Octubre, 2026",
-                "description": "Una charla profunda sobre los pilares de Montessori en el hogar y cómo aplicarlos de forma realista para reducir el estrés familiar.",
-                "action": "Escuchar Episodio"
+                "type": "TALLER",
+                "title": "Habilidades Sociales",
+                "date": "Celebrado",
+                "description": "Espacio grupal para ensayar la empatía, la comunicación asertiva y la resolución pacífica de conflictos.",
+                "action": "Ver Cartel",
+                "image": "/torre_rosa_taller_habilidades_sociales.jpg",
+                "href": "/torre_rosa_taller_habilidades_sociales.jpg"
             },
             "2": {
-                "type": "ARTÍCULO",
-                "title": "La importancia del juego en la regulación emocional",
-                "date": "5 Septiembre, 2026",
-                "description": "Reflexiones sobre cómo el entorno de juego no estructurado fortalece la autonomía y las habilidades ejecutivas.",
-                "action": "Leer Artículo"
+                "type": "TALLER",
+                "title": "Estimulación de Funciones Ejecutivas",
+                "date": "Celebrado",
+                "description": "Sesiones dinámicas para trabajar la atención, la memoria de trabajo, la planificación y la flexibilidad cognitiva.",
+                "action": "Ver Cartel",
+                "image": "/torre_rosa_taller_estimulacionDeFuncionesEjecutivas.jpg",
+                "href": "/torre_rosa_taller_estimulacionDeFuncionesEjecutivas.jpg"
+            },
+            "3": {
+                "type": "PODCAST",
+                "title": "Otra Educación: Educación Emocional",
+                "date": "Onda Color Málaga",
+                "description": "Hablamos sobre educación emocional, atención a la diversidad y el papel fundamental de las AMPAS en la comunidad educativa.",
+                "action": "Escuchar Episodio",
+                "image": "/torre_rosa_logo.jpg",
+                "href": "https://soundcloud.com/user-373892764/otra-educacion-programa-4?ref=clipboard&p=a&c=0&si=3b8a91510f854d3ca62c729b532565c0&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+            },
+            "4": {
+                "type": "PODCAST",
+                "title": "Otra Educación: El Duelo",
+                "date": "Onda Color Málaga",
+                "description": "Abordamos el delicado tema del duelo en la infancia y cómo acompañar a los niños y niñas a transitar estas pérdidas vitales.",
+                "action": "Escuchar Episodio",
+                "image": "/torre_rosa_logo.jpg",
+                "href": "https://soundcloud.com/user-373892764/otra-educacion-n7-el-duelo?utm_source=mobi&utm_campaign=social_sharing"
+            },
+            "5": {
+                "type": "VÍDEO",
+                "title": "Neurodiversidad y Altas Capacidades",
+                "date": "Montessori Málaga",
+                "description": "Directo especial profundizando en la atención y acompañamiento de las Altas Capacidades y la Neurodiversidad desde el aula y el hogar.",
+                "action": "Ver Vídeo",
+                "image": "https://img.youtube.com/vi/oXai34oUkS8/maxresdefault.jpg",
+                "href": "https://www.youtube.com/live/oXai34oUkS8?si=3FZsGG3Oa73V9S01"
             }
         }
     },

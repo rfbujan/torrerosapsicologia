@@ -23,7 +23,6 @@ export function MethodologySection() {
                 <div className="space-y-8 prose prose-lg text-neutral-600 max-w-none">
                     <p>{t('p1')}</p>
                     <p>{t('p2')}</p>
-                    <p>{t('p3')}</p>
 
                     <div className="bg-secondary/20 rounded-2xl p-8 my-8 border border-secondary">
                         <h3 className="text-xl font-semibold text-foreground mb-6 mt-0">
@@ -38,10 +37,6 @@ export function MethodologySection() {
                             ))}
                         </ul>
                     </div>
-
-                    <p className="font-medium text-foreground text-xl text-center pt-4">
-                        {t('p4')}
-                    </p>
                 </div>
             </div>
         </section>

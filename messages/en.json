@@ -35,28 +35,23 @@
     "Methodology": {
         "title": "How I work",
         "subtitle": "Methodology",
-        "p1": "When you come to know my therapeutic environment you will find a space designed for children, a place to work on difficulties with materials designed by Dr. Montessori and from a respectful perspective towards the development and the specific characteristics of each child and each family. My own intervention model harmonizes the psychological cognitive-behavioral model with the Montessori philosophy.",
-        "p2": "In my practice, we address the difficulties of children from the respectful basis of the Montessori philosophy. The focus of my practice starts from a deep respect for the individuality of each child and their family environment.",
-        "p3": "I integrate my training and practice as a child health psychologist with my years of experience as an educational counselor in a Montessori pedagogy school to create a warm space, where bonding, autonomy, and play are key tools for learning.",
-        "techniquesTitle": "I use techniques such as:",
+        "p1": "My practice is a warm and respectful space tailored for childhood. Here, a secure bond, autonomy, and unstructured free play become the main catalysts for change and learning.",
+        "p2": "Through my own therapeutic model, I integrate the scientific efficacy of cognitive-behavioral psychology with the deep humanistic philosophy of Montessori pedagogy. The result is comprehensive support that respects each child's developmental pace and empowers families.",
+        "techniquesTitle": "Intervention techniques and approaches:",
         "techniques": [
             "Montessori pedagogy materials",
             "Third-generation therapies",
             "EMDR (Eye Movement Desensitization and Reprocessing)",
             "Family psychoeducation",
-            "Sensorimotor therapies"
-        ],
-        "p4": "Collaboration with families is fundamental. We walk together, step by step, from understanding and without judgment."
+            "Sensorimotor therapy"
+        ]
     },
     "About": {
         "title": "About Me",
         "subtitle": "Professional Profile",
-        "p1": "My name is Elisabet García, and I am a general health psychologist specializing in children and adolescents, with training and experience in Montessori methodology, positive discipline, emotional development, and child Trauma.",
-        "p2": "My first professional experience as a child psychologist was more than 15 years ago in Early Intervention where I started my career and spent almost a decade learning about child development.",
-        "p3": "After my time as a child psychologist in Early Intervention, I began my collaboration with a Montessori school more than five years ago, where I play the role of educational counselor and have the opportunity to learn every day from the children, the guides, and the families.",
-        "p4": "Deep knowledge of evolutionary development and human learning has led me to create a respectful therapeutic model that combines scientific tools typical of clinical psychology with educational strategies from the Montessori philosophy, to accompany the comprehensive development of children and their families.",
-        "p5": "I firmly believe that each child has their own rhythm and that true change begins when we look at their world with curiosity, and accompany them in their process.",
-        "p6": "I invite you to learn more about my way of accompanying."
+        "p1": "I am Elisabet García, a general health psychologist specializing in children and adolescents. With over 15 years of professional trajectory, I began my path in Early Intervention, where I acquired deep knowledge about neurodevelopment and prevention for almost a decade.",
+        "p2": "For over five years, I have combined my clinical practice with the role of educational counselor at a prestigious Montessori school. This dual experience, combined with my training in childhood trauma (EMDR) and positive discipline, has allowed me to develop a unique psychotherapeutic model.",
+        "p3": "I firmly believe that every child has their own rhythm and that true change begins when their adult environment decides to look at their inner world with curiosity, respect, and empathy."
     },
     "News": {
         "title": "News & Announcements",
@@ -64,24 +59,57 @@
         "items": {
             "0": {
                 "type": "WORKSHOP",
-                "title": "Upcoming Positive Discipline Workshop for Families",
-                "date": "November 25, 2026",
-                "description": "Practical tools to manage daily challenges from mutual respect. Limited spots available.",
-                "action": "More information"
+                "title": "The Self-Esteem Factory",
+                "date": "Completed",
+                "description": "Practical workshop to provide children with tools to build a healthy and strong self-concept.",
+                "action": "View Poster",
+                "image": "/torre_rosa_taller_laFabricaDeLaAutoestima.jpg",
+                "href": "/torre_rosa_taller_laFabricaDeLaAutoestima.jpg"
             },
             "1": {
-                "type": "PODCAST",
-                "title": "Collaboration with 'Conscious Parenting'",
-                "date": "October 10, 2026",
-                "description": "A deep talk about the pillars of Montessori at home and how to apply them realistically to reduce family stress.",
-                "action": "Listen Episode"
+                "type": "WORKSHOP",
+                "title": "Social Skills",
+                "date": "Completed",
+                "description": "Group space to practice empathy, assertive communication, and peaceful conflict resolution.",
+                "action": "View Poster",
+                "image": "/torre_rosa_taller_habilidades_sociales.jpg",
+                "href": "/torre_rosa_taller_habilidades_sociales.jpg"
             },
             "2": {
-                "type": "ARTICLE",
-                "title": "The importance of play in emotional regulation",
-                "date": "September 5, 2026",
-                "description": "Reflections on how an unstructured play environment strengthens autonomy and executive skills.",
-                "action": "Read Article"
+                "type": "WORKSHOP",
+                "title": "Executive Functions Stimulation",
+                "date": "Completed",
+                "description": "Dynamic sessions to work on attention, working memory, planning, and cognitive flexibility.",
+                "action": "View Poster",
+                "image": "/torre_rosa_taller_estimulacionDeFuncionesEjecutivas.jpg",
+                "href": "/torre_rosa_taller_estimulacionDeFuncionesEjecutivas.jpg"
+            },
+            "3": {
+                "type": "PODCAST",
+                "title": "Another Education: Emotional Education",
+                "date": "Onda Color Málaga",
+                "description": "We talk about emotional education, attention to diversity, and the fundamental role of PTAs in the educational community.",
+                "action": "Listen Episode",
+                "image": "/torre_rosa_logo.jpg",
+                "href": "https://soundcloud.com/user-373892764/otra-educacion-programa-4?ref=clipboard&p=a&c=0&si=3b8a91510f854d3ca62c729b532565c0&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+            },
+            "4": {
+                "type": "PODCAST",
+                "title": "Another Education: Grief",
+                "date": "Onda Color Málaga",
+                "description": "We address the delicate topic of grief in childhood and how to accompany children to navigate these vital losses.",
+                "action": "Listen Episode",
+                "image": "/torre_rosa_logo.jpg",
+                "href": "https://soundcloud.com/user-373892764/otra-educacion-n7-el-duelo?utm_source=mobi&utm_campaign=social_sharing"
+            },
+            "5": {
+                "type": "VIDEO",
+                "title": "Neurodiversity and High Abilities",
+                "date": "Montessori Málaga",
+                "description": "Special live broadcast delving into the attention and support of High Abilities and Neurodiversity from the classroom and home.",
+                "action": "Watch Video",
+                "image": "https://img.youtube.com/vi/oXai34oUkS8/maxresdefault.jpg",
+                "href": "https://www.youtube.com/live/oXai34oUkS8?si=3FZsGG3Oa73V9S01"
             }
         }
     },
