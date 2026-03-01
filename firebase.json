@@ -6,6 +6,7 @@
       "**/.*",
       "**/node_modules/**"
     ],
+    "cleanUrls": true,
     "headers": [
       {
         "source": "**/*.html",
@@ -37,4 +38,3 @@
     ]
   }
 }
-
