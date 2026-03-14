@@ -4,6 +4,8 @@ import { notFound } from 'next/navigation';
 import { routing } from '../../i18n/routing';
 import { Outfit } from "next/font/google";
 import "../globals.css";
+import { WhatsAppWidget } from '@/components/WhatsAppWidget';
+import { CookieBanner } from '@/components/CookieBanner';
 
 const outfit = Outfit({
     subsets: ["latin"],
@@ -59,7 +61,7 @@ export default async function LocaleLayout({
     // Enable static rendering
     setRequestLocale(locale);
 
-    if (!routing.locales.includes(locale as any)) {
+    if (!routing.locales.includes(locale as "es" | "en")) {
         notFound();
     }
 
@@ -72,6 +74,8 @@ export default async function LocaleLayout({
             <body className={`${outfit.variable} antialiased font-sans`}>
                 <NextIntlClientProvider messages={messages}>
                     {children}
+                    <WhatsAppWidget />
+                    <CookieBanner />
                 </NextIntlClientProvider>
             </body>
         </html>

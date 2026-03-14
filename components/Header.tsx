@@ -7,6 +7,14 @@ import { Menu, X } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import Image from 'next/image';
 
+const LangSwitcher = ({ pathname }: { pathname: string }) => (
+    <div className="flex gap-4 items-center">
+        <Link href={pathname} locale="es" className="text-sm font-medium hover:text-primary transition-colors">ES</Link>
+        <span className="text-secondary-dark">|</span>
+        <Link href={pathname} locale="en" className="text-sm font-medium hover:text-primary transition-colors">EN</Link>
+    </div>
+);
+
 export function Header() {
     const t = useTranslations('Hero');
     const tCta = useTranslations('CTA');
@@ -25,22 +33,6 @@ export function Header() {
 
     const toggleMenu = () => setIsOpen(!isOpen);
 
-    const NavLinks = () => (
-        <>
-            <Link href="/" className="text-foreground/80 hover:text-primary transition-colors font-medium">Home</Link>
-            <Link href="/#services" className="text-foreground/80 hover:text-primary transition-colors font-medium">Services</Link>
-            <Link href="/#about" className="text-foreground/80 hover:text-primary transition-colors font-medium">About</Link>
-        </>
-    );
-
-    const LangSwitcher = () => (
-        <div className="flex gap-4 items-center">
-            <Link href={pathname} locale="es" className="text-sm font-medium hover:text-primary transition-colors">ES</Link>
-            <span className="text-secondary-dark">|</span>
-            <Link href={pathname} locale="en" className="text-sm font-medium hover:text-primary transition-colors">EN</Link>
-        </div>
-    );
-
     return (
         <header
             className={cn(
@@ -57,7 +49,7 @@ export function Header() {
                 </Link>
 
                 <div className="flex items-center gap-4 z-50">
-                    <LangSwitcher />
+                    <LangSwitcher pathname={pathname} />
                     {/* Desktop CTA */}
                     <a
                         href="https://calendly.com/eligarciadi"

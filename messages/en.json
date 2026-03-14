@@ -222,5 +222,14 @@
                 "Conflict resolution and fostering cooperation at home"
             ]
         }
+    },
+    "WhatsAppWidget": {
+        "defaultMessage": "Hello, I would like to receive more information about the center.",
+        "ariaLabel": "Open WhatsApp chat"
+    },
+    "CookieBanner": {
+        "message": "We use cookies to ensure that we give you the best experience on our website. By clicking \"Accept\", you consent to the use of ALL the cookies.",
+        "policyLinkText": "Read Cookie Policy",
+        "accept": "Accept"
     }
 }

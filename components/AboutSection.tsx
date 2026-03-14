@@ -1,6 +1,5 @@
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
-import { Quote } from 'lucide-react';
 
 export function AboutSection() {
     const t = useTranslations('About');

@@ -1,6 +1,6 @@
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
-import { Facebook, Instagram, Linkedin } from 'lucide-react';
+import { Instagram } from 'lucide-react';
 import Image from 'next/image';
 
 export function Footer() {
@@ -35,26 +35,18 @@ export function Footer() {
 
                     <div className="space-y-4">
                         <h4 className="font-semibold text-lg">Social</h4>
-                        <div className="flex space-x-4">
-                            <a href="#" className="p-2 bg-white/10 rounded-full hover:bg-white/20 transition-colors" aria-label="Facebook">
-                                <Facebook className="w-5 h-5" />
-                            </a>
-                            <a href="#" className="p-2 bg-white/10 rounded-full hover:bg-white/20 transition-colors" aria-label="Instagram">
-                                <Instagram className="w-5 h-5" />
-                            </a>
-                            <a href="#" className="p-2 bg-white/10 rounded-full hover:bg-white/20 transition-colors" aria-label="LinkedIn">
-                                <Linkedin className="w-5 h-5" />
-                            </a>
-                        </div>
+                        <a href="https://www.instagram.com/orientadora_montessori_/" target="_blank" rel="noopener noreferrer" className="p-2 bg-white/10 rounded-full hover:bg-white/20 transition-colors" aria-label="Instagram">
+                            <Instagram className="w-5 h-5" />
+                        </a>
                     </div>
                 </div>
 
                 <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-white/60">
                     <p>© {currentYear} {tHero('brandName')}. {t('rights')}</p>
                     <div className="flex space-x-6 mt-4 md:mt-0">
-                        <a href="#" className="hover:text-white transition-colors">{t('legal')}</a>
-                        <a href="#" className="hover:text-white transition-colors">{t('privacy')}</a>
-                        <a href="#" className="hover:text-white transition-colors">{t('cookies')}</a>
+                        <Link href="/legal/aviso-legal" className="hover:text-white transition-colors">{t('legal')}</Link>
+                        <Link href="/legal/privacidad" className="hover:text-white transition-colors">{t('privacy')}</Link>
+                        <Link href="/legal/cookies" className="hover:text-white transition-colors">{t('cookies')}</Link>
                     </div>
                 </div>
             </div>
