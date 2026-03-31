@@ -8,6 +8,19 @@ import { ContactSection } from '../../components/ContactSection';
 import { Footer } from '../../components/Footer';
 import { setRequestLocale } from 'next-intl/server';
 
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+    const { locale } = await params;
+    return {
+        alternates: {
+            canonical: `https://www.torrerosapsicologia.com/${locale}`,
+            languages: {
+                es: '/es',
+                en: '/en'
+            }
+        }
+    };
+}
+
 export default async function HomePage({ params }: { params: Promise<{ locale: string }> }) {
     const { locale } = await params;
     setRequestLocale(locale);

@@ -3,16 +3,16 @@
 Este documento enumera las tareas pendientes, integraciones futuras y recomendaciones estratégicas para evolucionar la web de **Centro Torre Rosa** hacia su mejor versión técnica y de negocio.
 
 ## 🔴 Pendientes Urgentes (Identificadas)
-- [ ] **Redes Sociales:** Actualizar el enlace del icono de Instagram en el pie de página (`Footer.tsx`) con la URL real de la clínica.
-- [ ] **Textos Legales:** Redactar y enlazar correctamente las páginas de:
+- [X] **Redes Sociales:** Actualizar el enlace del icono de Instagram en el pie de página (`Footer.tsx`) con la URL real de la clínica.
+- [X] **Textos Legales:** Redactar y enlazar correctamente las páginas de:
   - Política de Privacidad
   - Aviso Legal
   - Política de Cookies (y añadir un banner de aceptación de cookies para cumplir con la RGPD europea).
-- [ ] **SEO (Posicionamiento en Google):**
+- [X] **SEO (Posicionamiento en Google):**
   - Asegurar que los meta-títulos y descripciones en `messages/es.json` y `layout.tsx` sean perfectos.
   - Asegurar que `sitemap.xml` y `robots.txt` estén configurados correctamente para el dominio final en producción.
   - Registrar la web en **Google Search Console** para acelerar la indexación.
-- [ ] **Integración con WhatsApp:** Añadir un botón flotante (widget) de WhatsApp en la esquina inferior derecha para que los pacientes puedan abrir un chat directo desde el móvil con un solo clic.
+- [X] **Integración con WhatsApp:** Añadir un botón flotante (widget) de WhatsApp en la esquina inferior derecha para que los pacientes puedan abrir un chat directo desde el móvil con un solo clic.
 
 ---
 

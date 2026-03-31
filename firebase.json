@@ -7,6 +7,18 @@
       "**/node_modules/**"
     ],
     "cleanUrls": true,
+    "redirects": [
+      {
+        "source": "/sobre-miacute.html",
+        "destination": "/es#about",
+        "type": 301
+      },
+      {
+        "source": "/blog/:path*",
+        "destination": "/es",
+        "type": 301
+      }
+    ],
     "headers": [
       {
         "source": "**/*.html",
